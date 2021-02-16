@@ -1,9 +1,10 @@
-import './app.css';
+import Login from "./components/login/login";
+import styles from "./app.module.css";
 
-function App() {
+function App({ authService }) {
   return (
-    <div className="App">
-      return <h1>Hello :)</h1>
+    <div className={styles.app}>
+      <Login authService={authService} />
     </div>
   );
 }
