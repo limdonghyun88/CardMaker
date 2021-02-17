@@ -1,5 +1,6 @@
 .editor {
   flex-basis: 50%;
+  overflow-y: auto;
 }
 
 .title {
